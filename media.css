@@ -1,0 +1,161 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {}
+
+/* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .navbar-brand {
+    margin-left: 23px;
+}
+  .form {
+    padding-right: 315px;
+    padding-top: 9px;
+}
+.massage{
+  padding-right: 315px;
+}
+}
+
+/* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .navbar-brand {
+    margin-left: 2rem;
+}
+  .tittle {
+    font-size: 102px;
+    font-weight: 500;
+    color: white;
+    padding-top: 30rem;
+    text-align: center;
+}
+.col-md-7 {
+  width: 100%;
+}
+.bg-four-div-sec {
+  height: 38vh;
+  background-size: cover;
+  background-position: center center;
+}
+.bg-cricle-main {
+  height: 49vh;
+}
+.form-sec {
+  height: 66vh;
+  background-attachment: scroll;
+}
+.form {
+  padding-right: 102px;
+  padding-top: 12px;
+  padding-bottom: 10px;
+}
+.massage{
+  padding-right: 102px;
+}
+}
+
+/* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {}
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {}
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .navbar-brand {
+    margin-left: 1rem;
+  }
+
+  .navbar-nav {
+    margin-left: 1rem;
+  }
+
+  .navbar {
+    width: 100%;
+  }
+
+  .tittle {
+    font-size: 3rem;
+    padding-top: 13rem;
+  }
+
+  #amaan-navbar {
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center center;
+    height: 82vh;
+  }
+
+  .pt-5 {
+    padding-top: 0px;
+  }
+
+  .bg-four-div-sec {
+    background-attachment: scroll;
+    padding-bottom: 66rem;
+  }
+
+  .four-main-div {
+    padding-top: 6rem;
+  }
+
+  .col-3 {
+    width: 100%;
+  }
+
+  .col-4 {
+    width: 100%;
+    margin-top: 15px;
+  }
+
+  .col-6 {
+    width: 100%;
+  }
+
+  .form-sec {
+    padding-bottom: 68rem;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .form {
+    padding-right: 110px;
+  }
+
+  .bg-cricle-main {
+    padding-bottom: 35rem;
+  }
+
+  .massage {
+    padding-right: 110px;
+  }
+
+  .btn-massage {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
